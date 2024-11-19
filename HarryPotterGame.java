@@ -4,8 +4,8 @@ public class HarryPotterGame {
 
         String[] spells = {"Expelliarmus", "Stupefy", "Lumos"};
 
-        int player1Choice = ((int) (Math.random() * 4));
-        int player2Choice = ((int) (Math.random() * 4));
+        int player1Choice = ((int) (Math.random() * 3));
+        int player2Choice = ((int) (Math.random() * 3));
 
         System.out.println("Welcome to the Harry Potter Spell Duel!");
         System.out.println("Player 1 chose: " + spells[player1Choice]);
